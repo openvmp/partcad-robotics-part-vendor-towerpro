@@ -1,4 +1,4 @@
-# /pub/electromechanics/towerpro
+# //pub/electromechanics/towerpro
 
 TowerPro parts
 
