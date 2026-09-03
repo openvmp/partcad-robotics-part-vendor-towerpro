@@ -5,24 +5,24 @@ links:
 
   # Mounting screws
   - part: fastener/socketheadcap-iso4762
-    package: /pub/std/metric/cqwarehouse
+    package: //pub/std/metric/cqwarehouse
     name: screw-top
     params:
       size: M2.5-0.45
       length: 10
     connect:
       name: motor
-      to: "/pub/std/metric/m:m2.5-thru-2.5"
+      to: "//pub/std/metric/m:m2.5-thru-2.5"
       toInstance: top-front
   - part: fastener/socketheadcap-iso4762
-    package: /pub/std/metric/cqwarehouse
+    package: //pub/std/metric/cqwarehouse
     name: screw-bottom
     params:
       size: M2.5-0.45
       length: 10
     connect:
       name: motor
-      to: "/pub/std/metric/m:m2.5-thru-2.5"
+      to: "//pub/std/metric/m:m2.5-thru-2.5"
       toInstance: bottom-front
 
   # Servo shoulder
@@ -31,9 +31,9 @@ links:
     connect:
       withInstance: inner
       name: motor
-      to: "/pub/std/metric/m:m2.5-threaded-hole-4"
+      to: "//pub/std/metric/m:m2.5-threaded-hole-4"
   - part: fastener/countersunk-iso7046
-    package: /pub/std/metric/cqwarehouse
+    package: //pub/std/metric/cqwarehouse
     name: screw-bottom
     params:
       size: M2.5-0.45
